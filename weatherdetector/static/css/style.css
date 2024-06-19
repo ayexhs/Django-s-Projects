@@ -1,0 +1,14 @@
+body {
+    background-image: url('../images/weather\ bg.jpeg');
+    background-size: cover; /* This will make sure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white;
+}
+.weather-card {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
